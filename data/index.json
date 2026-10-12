@@ -1,0 +1,31 @@
+{
+  "schema": "ai-open-research-index/1",
+  "datasets": {
+    "institution_voices": {
+      "count": 313,
+      "strata": 12
+    },
+    "ai_discourse": {
+      "count": 318,
+      "strata": 8
+    },
+    "institution_conversations": {
+      "count": 449,
+      "strata": 8
+    },
+    "personal_meta_muse": {
+      "count": 360,
+      "strata": 6
+    },
+    "personal_openai_dots": {
+      "count": 167,
+      "strata": 6
+    },
+    "personal_grok_bot": {
+      "count": 360,
+      "strata": 6
+    }
+  },
+  "personal_agent_union_count": 862,
+  "coverage_complete": false
+}

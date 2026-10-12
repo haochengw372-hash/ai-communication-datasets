@@ -1,0 +1,61 @@
+{
+  "schema": "ai-open-research-corpus/1",
+  "name": "personal_openai_dots",
+  "created_at_utc": "2026-10-12T15:51:50.504504+00:00",
+  "count": 167,
+  "stratum_record_sum": 167,
+  "post_ids_sha256": "25783ab8a63dd044d7cf77061ad0e48c39743ce4670d606baf808cb020ccc42e",
+  "strata": [
+    {
+      "stratum": "personal_openai_dots_2026-09-01",
+      "retained_analysis_ids": 10,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "b940a8c90494bf6607ccc1b07f43e650864aae9ccd7975a20219a892378defa7",
+      "source_fingerprint": "35ea99e402a3d0fedd8f22fccd9e9220595a077c49be573e5862b1c4f7ab524b"
+    },
+    {
+      "stratum": "personal_openai_dots_2026-09-08",
+      "retained_analysis_ids": 6,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "44d30b26fdc4affea012dc50e17f09a284e8a7307ee49f35cfeabaa7dda9d10a",
+      "source_fingerprint": "e957b2c5954bec8b0f4344e4f72ec819b03fa7a5634e429b08d36b173977d7c6"
+    },
+    {
+      "stratum": "personal_openai_dots_2026-09-15",
+      "retained_analysis_ids": 11,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "827fd61cb17453bcd6f36671e23d0a4e4b694bf9a028ac2c647b7119ff08d0a2",
+      "source_fingerprint": "cc536e1133ed99d293e565e1d8f9cc41bc30c428539a8e15f08502bb94bfb631"
+    },
+    {
+      "stratum": "personal_openai_dots_2026-09-22",
+      "retained_analysis_ids": 20,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "7cd6b60abe29104eda80037cac2e9a75c396ad04320b14411ad898814d924d77",
+      "source_fingerprint": "57f31be83c05544d520886ec5927ba2415d8ac1ae2925b5fde93842b7609f297"
+    },
+    {
+      "stratum": "personal_openai_dots_2026-09-29",
+      "retained_analysis_ids": 60,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "1c30f616fea20a350e6515a0853182a9425100556cde43771dcdf52cb1d95eb8",
+      "source_fingerprint": "b6303ebb6809c10eaee428f2fde45de721e7aba56f4d92d5ffa808e0526e1400"
+    },
+    {
+      "stratum": "personal_openai_dots_2026-10-06",
+      "retained_analysis_ids": 60,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "33f1f004fe00e40f6504dd2223e5950037f61526300e553dcf0234d4740991bd",
+      "source_fingerprint": "9dcddd9b78d493b4a560db108380cbb3262af3a234c5bf0261a2fc72d0e5bf61"
+    }
+  ],
+  "coverage_complete": false,
+  "unit": "unique retained analysis or seed post ID; context records excluded",
+  "content_license": "No license to X post content is granted; rehydration requires your own lawful access."
+}

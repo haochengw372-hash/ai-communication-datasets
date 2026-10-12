@@ -1,0 +1,213 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-10-12",
+  "status": "protocol_not_executed",
+  "replication_claim": "new_sample_method_adaptation_only",
+  "studies": [
+    {
+      "id": "kaiser_green_2026",
+      "citation": "Kaiser, J., & Green, C. (2026). Artificial intelligence in the networked public sphere: An analysis of the AI discourse on Twitter. First Monday, 31(4).",
+      "doi": "10.5210/fm.v31i4.14436",
+      "article_url": "https://firstmonday.org/ojs/index.php/fm/article/download/14436/12411",
+      "pdf_url": "https://firstmonday.org/ojs/index.php/fm/article/download/14436/12423/94176",
+      "fulltext_read": true,
+      "locators": {
+        "method": "PDF pp.5–6 (1-based file pages)",
+        "hashtag_domain_tables": "PDF p.7, Tables 2–3",
+        "networks": "Figures 1–2"
+      },
+      "original": {
+        "query": "AI lang:en",
+        "start": "2023-01-01",
+        "until_exclusive": "2023-02-01",
+        "initial_records": 4732859,
+        "clean_records": 4732520,
+        "non_reposts": 1961903,
+        "units": [
+          "posts",
+          "authors",
+          "hashtags",
+          "linked domains",
+          "retweet edges"
+        ],
+        "methods": [
+          "rank hashtags and linked domains",
+          "construct user retweet network",
+          "construct hashtag co-occurrence network",
+          "remove AI and ArtificialIntelligence from hashtag network"
+        ],
+        "data_access": "No original dataset or analysis code link found in full article; not a verified original-data replication route.",
+        "license": "Author copyright stated; no dataset/code license found."
+      },
+      "adaptation": {
+        "unit": "unique retained post_id within a prespecified bounded search corpus",
+        "required_fields": [
+          "id",
+          "created_at",
+          "lang",
+          "hashtags",
+          "urls",
+          "author_id",
+          "post_type"
+        ],
+        "steps": [
+          "Use package search with frozen UTC dates, query, language, page/request/time caps and save manifest.",
+          "Deduplicate by post ID; report missing language/date/hashtag/URL values instead of imputing.",
+          "Produce separate counts by main post, reply, quote and repost; show primary analysis excluding native reposts and an explicitly separate all-retained-posts sensitivity analysis.",
+          "Count case-sensitive hashtag post incidence for comparison with Table 2; also export casefolded incidence as an adaptation.",
+          "For each post, deduplicate casefolded hashtag strings, exclude ai and artificialintelligence, sort remaining unique tags, increment each unordered distinct pair once.",
+          "Use structured expanded URLs already retained by package; urlsplit hostname, lowercase, retain host-level output and document any www normalization; do not guess t.co destination or conflate hostname with registrable domain.",
+          "Rank tag and domain incidence; export weighted hashtag edges, nodes, counts and denominator metadata.",
+          "Report page-limit/rate-limit/date-filter coverage and observed scope. No total-population shares or claims of exhaustive 2026 AI discourse."
+        ],
+        "new_decisions_not_specified_by_original": [
+          "per-post duplicate hashtag handling",
+          "edge weighting",
+          "casefolded sensitivity output",
+          "expanded URL fallback",
+          "current collection budget and period"
+        ],
+        "outputs": [
+          "hashtag_counts.csv",
+          "domain_counts.csv",
+          "hashtag_edges.csv",
+          "post_type_counts.csv",
+          "replication_manifest.json"
+        ],
+        "out_of_scope": [
+          "original 2023 result reproduction",
+          "GPT-3.5 sentiment reproduction",
+          "Gephi community equivalence without full parameters",
+          "retweet network when actual retweet edges are absent"
+        ]
+      }
+    },
+    {
+      "id": "hara_et_al_2025",
+      "citation": "Hara, N., Kim, E., Akter, S., & Miyazaki, K. (2025). Exploring the dynamics of interaction about generative artificial intelligence between experts and the public on social media. Journal of Science Communication, 24(01), A02.",
+      "doi": "10.22323/2.24010202",
+      "article_url": "https://jcom.sissa.it/article/pubid/JCOM_2401_2025_A02/",
+      "pdf_url": "https://jcom.sissa.it/article/1431/galley/3215/download/",
+      "fulltext_read": true,
+      "locators": {
+        "collection": "printed p.5, PDF file p.6, section3.1",
+        "manual_sampling": "printed p.5, PDF file p.6, section3.3",
+        "roles": "printed p.9, PDF file p.10, Table5"
+      },
+      "original": {
+        "start": "2022-11-30",
+        "last_date": "2023-06-23",
+        "expert_profile_terms": [
+          "scientist",
+          "researcher",
+          "professor"
+        ],
+        "main_posts": 50487,
+        "main_post_authors": 15291,
+        "replies": 36315,
+        "reply_authors": 26878,
+        "manual_root_posts": 99,
+        "manual_replies": 901,
+        "manual_root_min_replies": 3,
+        "tools": [
+          "ChatGPT",
+          "Bing Chat",
+          "DALL-E",
+          "DALL-E 2",
+          "Stable Diffusion",
+          "Midjourney",
+          "Craiyon",
+          "GitHub Copilot",
+          "GPT-2",
+          "GPT-3"
+        ],
+        "analyses": [
+          "Biterm Topic Model with perplexity topic-count selection",
+          "manual role coding",
+          "separate negative binomial regressions for expert posts and public replies"
+        ],
+        "data_access": "No raw interaction dataset, coding matrix, scripts or supplementary download located on article page/PDF. Upstream Miyazaki repository shares post IDs only, not this reply/coding data.",
+        "license": "Article CC BY-NC-ND 4.0; this is not a license for raw X data or analysis code."
+      },
+      "adaptation": {
+        "scope": "interaction structure description only; full paper not replicated",
+        "required_fields": [
+          "root_id",
+          "id",
+          "author_id",
+          "parent_id",
+          "depth",
+          "created_at",
+          "user_description",
+          "collected_at",
+          "like_count",
+          "reply_count",
+          "repost_count"
+        ],
+        "steps": [
+          "Use primary author/institution sites only to build candidate researcher list, then retrieve current profiles through pyXcom.",
+          "Apply and log case-insensitive whole-word scientist|researcher|professor to current bio; save matched term and profile observation time. This word-boundary convention is an explicit adaptation.",
+          "Retain eligible candidate authors and collect their AI-tool-related root posts in fixed date windows. Purposive seed accounts differ from the original keyword-derived author frame.",
+          "Save root candidates before engagement selection; select with a published deterministic rule, preferably chronological/seeded sample, and retain exclusion reasons.",
+          "Collect bounded replies through package; keep verified parent/root/depth, unresolved ancestry and retrieval caps.",
+          "Separate root-author self-replies from other-author replies. Use other-author replies, not layperson, unless occupational status is independently coded.",
+          "Compute retained roots, unique authors, direct vs deeper replies, self-reply share, root-level reply distributions and unresolved-ancestry rate with denominators.",
+          "Eligibility for manual-coding sample is at least 3 actually retained resolved replies; displayed platform reply count is not evidence that 3 replies were collected.",
+          "Export blank role_code/coder_id/evidence/reference fields. Do not infer roles or run role regressions until validated human annotations exist."
+        ],
+        "outputs": [
+          "conversation_structure.csv",
+          "root_sampling_frame.csv",
+          "expert_profile_screening.csv",
+          "role_annotation_template.csv",
+          "replication_manifest.json"
+        ],
+        "out_of_scope": [
+          "replication of Table5 role percentages",
+          "BTM topic reproduction",
+          "negative binomial role effects",
+          "claim that all reply authors are non-experts",
+          "claim that selected famous researchers represent all experts"
+        ]
+      }
+    }
+  ],
+  "candidate_accounts": [
+    {
+      "handle": "AndrewYNg",
+      "primary_source": "https://www.andrewng.org/",
+      "verified_source_fact": "Official page links @AndrewYNg and identifies Adjunct Professor at Stanford.",
+      "bio_keyword_eligibility": "not_yet_checked_by_pyxcom",
+      "activity": "not_yet_checked_by_pyxcom"
+    },
+    {
+      "handle": "ylecun",
+      "primary_source": "https://yann.lecun.org/",
+      "verified_source_fact": "Author homepage search-indexed text links @ylecun and says he no longer writes posts on X; NYU faculty page confirms professor.",
+      "corroborating_primary_source": "https://cims.nyu.edu/people/profiles/LECUN_Yann.html",
+      "bio_keyword_eligibility": "not_yet_checked_by_pyxcom",
+      "activity": "current homepage states no longer posting; prefer fallback only"
+    },
+    {
+      "handle": "MelMitchell1",
+      "primary_source": "https://www.complexityexplorer.org/courses/108-lecture-artificial-intelligence",
+      "verified_source_fact": "Santa Fe Institute course platform identifies Melanie Mitchell as professor and links @MelMitchell1.",
+      "bio_keyword_eligibility": "not_yet_checked_by_pyxcom",
+      "activity": "not_yet_checked_by_pyxcom"
+    },
+    {
+      "handle": "GaryMarcus",
+      "primary_source": "https://aiforgood.itu.int/speaker/gary-marcus/",
+      "verified_source_fact": "ITU AI for Good speaker page identifies NYU emeritus professor and explicitly links @garymarcus. Page has old 2023 event language; current bio must determine inclusion.",
+      "bio_keyword_eligibility": "not_yet_checked_by_pyxcom; do not include based on real-world title alone",
+      "activity": "not_yet_checked_by_pyxcom"
+    },
+    {
+      "handle": "chrmanning",
+      "primary_source": "https://nlp.stanford.edu/~manning/",
+      "verified_source_fact": "Stanford faculty homepage identifies professor and links @chrmanning in Contact section.",
+      "bio_keyword_eligibility": "not_yet_checked_by_pyxcom",
+      "activity": "not_yet_checked_by_pyxcom"
+    }
+  ]
+}

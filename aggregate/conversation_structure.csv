@@ -1,0 +1,12 @@
+measure,count
+ancestry:resolved,441
+author_relation:other_author,436
+author_relation:root_author,5
+depths:1,440
+direct_resolved_comments,440
+manual_sample_eligible,8
+resolved_comments,441
+retained_comments,441
+root_present,8
+unique_reply_authors_known,394
+unique_retained_comment_ids,441

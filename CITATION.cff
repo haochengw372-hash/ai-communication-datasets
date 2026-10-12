@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this version and describe its bounded candidate sampling."
+type: dataset
+title: "AI Communication Datasets: Personal Agents, Institutional Voices, and Observed Conversations"
+version: 0.1.0
+date-released: 2026-10-12
+authors:
+  - family-names: Wang
+    given-names: Haocheng
+    affiliation: Communication University of China
+repository-code: "https://github.com/haochengw372-hash/ai-communication-datasets"
+url: "https://github.com/haochengw372-hash/ai-communication-datasets"

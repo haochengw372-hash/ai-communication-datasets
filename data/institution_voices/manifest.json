@@ -1,0 +1,109 @@
+{
+  "schema": "ai-open-research-corpus/1",
+  "name": "institution_voices",
+  "created_at_utc": "2026-10-12T15:51:49.845878+00:00",
+  "count": 313,
+  "stratum_record_sum": 313,
+  "post_ids_sha256": "2ee1edb12043c580f3ef012b5910a0af1b6ad8ea165dea646f20832963faa516",
+  "strata": [
+    {
+      "stratum": "institution_AnthropicAI_2026-07-01",
+      "retained_analysis_ids": 35,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "21e5b1414fea7b37632ce7c2a8a87db2836b1e13d88e16accc46bd48c3a04b4b",
+      "source_fingerprint": "0e1a57d1c97fe068ad7ca8e869edcf7035457a35f76fb83382c38b18ff6c38a5"
+    },
+    {
+      "stratum": "institution_AnthropicAI_2026-08-01",
+      "retained_analysis_ids": 27,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "b98f42cc408b52fdd448149b6e39cf3d662bfcd6d7a12d965595fc13f20b75b5",
+      "source_fingerprint": "8c1bd4f8750590a49582eeb87980ef9d4b4aff14f7ada8f1aeb8fb8db886b7f6"
+    },
+    {
+      "stratum": "institution_AnthropicAI_2026-09-01",
+      "retained_analysis_ids": 20,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "e4eea50ea652576dae158d6c78c2a9de1d75156605926e8c0951fb0573933ab6",
+      "source_fingerprint": "b1101353b961b4a0634597dac3d381ebb569017f759aff121a664ed941fcca30"
+    },
+    {
+      "stratum": "institution_GoogleDeepMind_2026-07-01",
+      "retained_analysis_ids": 31,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "b93a74039d0a4865b7318f986da92bd3541a7bc42e244f9e69856d3165cbf648",
+      "source_fingerprint": "34a3754877ddd343b7f54619cca15a623b9d267777d1c3d0bc9d7c3e943e2680"
+    },
+    {
+      "stratum": "institution_GoogleDeepMind_2026-08-01",
+      "retained_analysis_ids": 20,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "fd0b49d1e4b680d4f5427e2cfb2e79b6a5704c1530317c141419b8b3a5b5dd21",
+      "source_fingerprint": "e15b3a05c0c0e5ec9e63b46e58a3d07f3d4c01a8176f70d1d761f88a15012dc8"
+    },
+    {
+      "stratum": "institution_GoogleDeepMind_2026-09-01",
+      "retained_analysis_ids": 34,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "0d8ce3af3e0f9aedf202de285526bdb9dbf28a9ca8c215705aaca737092ad153",
+      "source_fingerprint": "32b03c03ae0079d14d2c898a529b034945fe34dc113e2f2761a3a9faefd1c911"
+    },
+    {
+      "stratum": "institution_MistralAI_2026-07-01",
+      "retained_analysis_ids": 8,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "71e4de9a781bc0d13b46df6e9d2cb025e7cd0b70a31bc5db81d5c2feaf454bb7",
+      "source_fingerprint": "04cb7f63da28401fc21b14047660a692b8c53e557610af376f4050f796b1fadb"
+    },
+    {
+      "stratum": "institution_MistralAI_2026-08-01",
+      "retained_analysis_ids": 13,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "521b49ac0f44a00d94973e611d4f31421a2e2b71255127ce93956a3b43e453f3",
+      "source_fingerprint": "c3000872be17bb2fec81eb78826ac2a641a8515de730d0368c2fdd4c9b099d9c"
+    },
+    {
+      "stratum": "institution_MistralAI_2026-09-01",
+      "retained_analysis_ids": 6,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "de94555fa5e36b8bd0c7a68a3be03959f6cd6a0cf5832f2743b39e9569bcefec",
+      "source_fingerprint": "73cdad61673d9abd603a4371dbd752c30533480b87ae8b647ef9f45c798f8fbf"
+    },
+    {
+      "stratum": "institution_OpenAI_2026-07-01",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "ae2642e82a4f9a7a6e5da368f37c860293e8a5ad7aa487cbf5b8dc29488f7452",
+      "source_fingerprint": "9d948db2052e58600e5613198da61f629977b33a4ab29a891e2a88bfa7f06a71"
+    },
+    {
+      "stratum": "institution_OpenAI_2026-08-01",
+      "retained_analysis_ids": 39,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "71cd8690b8d231a4ff254e0c5cda60b68bd024d7d87b8fb520193ff48f268209",
+      "source_fingerprint": "c5e6f7fff4b998678eb7b1bf5992df6cf375c808122b06ec976283f9bbad09e4"
+    },
+    {
+      "stratum": "institution_OpenAI_2026-09-01",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "ff140a69a93c92efba13f4d0332fd76b5f9d6e13c24c73c9be54a9efd026337a",
+      "source_fingerprint": "5f0943a918a9130b3af2aa4cff5a269db8107269ada2bf5c84d99b74aae4ffea"
+    }
+  ],
+  "coverage_complete": false,
+  "unit": "unique retained analysis or seed post ID; context records excluded",
+  "content_license": "No license to X post content is granted; rehydration requires your own lawful access."
+}

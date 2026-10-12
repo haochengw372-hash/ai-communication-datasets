@@ -1,0 +1,22 @@
+{
+  "collection_complete": false,
+  "content_license": "not_granted",
+  "count": 20,
+  "coverage_complete": false,
+  "exclusions": {
+    "context_records": 0,
+    "duplicate_ids": 0,
+    "other_roles": 0
+  },
+  "file": "post_ids.csv",
+  "package_version": "1.2.0",
+  "roles": [
+    "comment",
+    "main",
+    "repost"
+  ],
+  "schema": "pyxcom.post-ids/1",
+  "sha256": "7cd6b60abe29104eda80037cac2e9a75c396ad04320b14411ad898814d924d77",
+  "source_fingerprint": "57f31be83c05544d520886ec5927ba2415d8ac1ae2925b5fde93842b7609f297",
+  "source_records": 20
+}

@@ -1,0 +1,313 @@
+{
+  "analysis_script_sha256": "cd225cff997da831d4b1cb871f6e546eb75ff1d8381281d45693ded700be3264",
+  "canonical_policy": "first analysis observation per post ID in lexicographic scope order, then saved record order",
+  "claim": "new_sample_method_adaptation_only",
+  "denominators": {
+    "duplicate_observations": 2,
+    "excluded_context_observations": 0,
+    "excluded_reposts": 0,
+    "primary_non_reposts": 318,
+    "unique_analysis_posts": 318
+  },
+  "doi": "10.5210/fm.v31i4.14436",
+  "execution_mode": "portable",
+  "generated_at_utc": "2026-10-12T15:57:39.234306+00:00",
+  "host_normalization": "lowercase and remove trailing dot; preserve www; hostname not registrable domain; no redirects",
+  "language_policy": "Retain returned missing/other languages and report separately; lang:en is the requested source filter, not inferred English.",
+  "language_unsuppressed": {
+    "en": 318
+  },
+  "literature_methods_sha256": "2e6a9a8035cf551895fc6017e6577e015a7c8432581a0ebd59f9167ca9087715",
+  "missingness_non_reposts": {
+    "hashtags_empty_list": 309,
+    "outbound_urls_empty_list": 294
+  },
+  "network_export_status": "no_edges_survive_publication_threshold",
+  "not_replicated": [
+    "original 2023 results",
+    "GPT sentiment",
+    "retweet network",
+    "Gephi community structure"
+  ],
+  "post_types_all_unsuppressed": {
+    "original": 119,
+    "quote": 57,
+    "reply": 142
+  },
+  "post_types_primary_unsuppressed": {
+    "original": 119,
+    "quote": 57,
+    "reply": 142
+  },
+  "privacy": "No text, author IDs, or root-reply pairs published; aggregate term incidence threshold is not a formal anonymity guarantee.",
+  "publication_threshold": 3,
+  "python": "3.13.0",
+  "sampling_config_sha256": "e2fb265ab67b6f54dbb878031951c7b45c0a8158d347d1e725702a6892614a52",
+  "sensitivity": "all_retained_* term and edge tables include native reposts; primary tables exclude them; equal if no reposts retained.",
+  "sources": [
+    {
+      "complete": false,
+      "date_scope": {
+        "local_filter_applied": true,
+        "out_of_window_observations": 0,
+        "returned_observations": 40
+      },
+      "manifest_sha256": "9667b66444b54cdcc4988090d93fe99dff64cd7234011ed63d8e2c2f0d799975",
+      "pages_fetched": 2,
+      "query": {
+        "effective_query": "AI lang:en -filter:retweets since:2026-09-01 until:2026-09-08 since_time:1788220800 until_time:1788825600",
+        "kind": "search_query",
+        "query": "AI lang:en -filter:retweets",
+        "since": "2026-09-01",
+        "until": "2026-09-08"
+      },
+      "reason": "page_limit",
+      "scope": "discourse_01",
+      "source_sha256": "41e2d2668e14280816a0f6d40877a89b115504552a0a74b0d06089339052745c"
+    },
+    {
+      "complete": false,
+      "date_scope": {
+        "local_filter_applied": true,
+        "out_of_window_observations": 0,
+        "returned_observations": 40
+      },
+      "manifest_sha256": "87ef6b9481bc9da252f00d48d6370e076cbd4db5142ad6d685eb385b0671333c",
+      "pages_fetched": 2,
+      "query": {
+        "effective_query": "AI lang:en -filter:retweets since:2026-09-08 until:2026-09-15 since_time:1788825600 until_time:1789430400",
+        "kind": "search_query",
+        "query": "AI lang:en -filter:retweets",
+        "since": "2026-09-08",
+        "until": "2026-09-15"
+      },
+      "reason": "page_limit",
+      "scope": "discourse_02",
+      "source_sha256": "10ee004f48aada0693f630fe5f07771b1571ce204bbaa05d1de5edd76fbab018"
+    },
+    {
+      "complete": false,
+      "date_scope": {
+        "local_filter_applied": true,
+        "out_of_window_observations": 0,
+        "returned_observations": 40
+      },
+      "manifest_sha256": "16bc0992f7d1cd807a0ef1c54930c1c4439c5a87bf27ab01d52677c9136a27dd",
+      "pages_fetched": 2,
+      "query": {
+        "effective_query": "AI lang:en -filter:retweets since:2026-09-15 until:2026-09-22 since_time:1789430400 until_time:1790035200",
+        "kind": "search_query",
+        "query": "AI lang:en -filter:retweets",
+        "since": "2026-09-15",
+        "until": "2026-09-22"
+      },
+      "reason": "page_limit",
+      "scope": "discourse_03",
+      "source_sha256": "47343f93e59da90e9ee8324b001cb9f24bb134669e78867cded1282c6416cd3a"
+    },
+    {
+      "complete": false,
+      "date_scope": {
+        "local_filter_applied": true,
+        "out_of_window_observations": 0,
+        "returned_observations": 40
+      },
+      "manifest_sha256": "154758d601993457b39a816b8096bc65585f52dc7fcdba740252bdab852fb909",
+      "pages_fetched": 2,
+      "query": {
+        "effective_query": "AI lang:en -filter:retweets since:2026-09-22 until:2026-09-29 since_time:1790035200 until_time:1790640000",
+        "kind": "search_query",
+        "query": "AI lang:en -filter:retweets",
+        "since": "2026-09-22",
+        "until": "2026-09-29"
+      },
+      "reason": "page_limit",
+      "scope": "discourse_04",
+      "source_sha256": "becfbd9adcdb85096b8f849a741573adb53f6da9a9e95bf97a3e2156281967ec"
+    },
+    {
+      "complete": false,
+      "date_scope": {
+        "local_filter_applied": true,
+        "out_of_window_observations": 0,
+        "returned_observations": 40
+      },
+      "manifest_sha256": "6c7c4a7912e171b3617dc26490c9948c98e6fa8e73e43c57cbd2e582d6bf5131",
+      "pages_fetched": 2,
+      "query": {
+        "effective_query": "ChatGPT lang:en -filter:retweets since:2026-09-01 until:2026-09-08 since_time:1788220800 until_time:1788825600",
+        "kind": "search_query",
+        "query": "ChatGPT lang:en -filter:retweets",
+        "since": "2026-09-01",
+        "until": "2026-09-08"
+      },
+      "reason": "page_limit",
+      "scope": "discourse_05",
+      "source_sha256": "7e513b2b9472222f378647dffdea91746af87737597fc81f43147d3a6dc46676"
+    },
+    {
+      "complete": false,
+      "date_scope": {
+        "local_filter_applied": true,
+        "out_of_window_observations": 0,
+        "returned_observations": 40
+      },
+      "manifest_sha256": "3868542ce2ac163ecf81daf4ce815a71d936bd23e38bdd93479f02209bd115ab",
+      "pages_fetched": 2,
+      "query": {
+        "effective_query": "ChatGPT lang:en -filter:retweets since:2026-09-08 until:2026-09-15 since_time:1788825600 until_time:1789430400",
+        "kind": "search_query",
+        "query": "ChatGPT lang:en -filter:retweets",
+        "since": "2026-09-08",
+        "until": "2026-09-15"
+      },
+      "reason": "page_limit",
+      "scope": "discourse_06",
+      "source_sha256": "0359be1691a988019ef71ccb51b8468c1c0f5658bc4b70efb2b6c6f93e2424b4"
+    },
+    {
+      "complete": false,
+      "date_scope": {
+        "local_filter_applied": true,
+        "out_of_window_observations": 0,
+        "returned_observations": 40
+      },
+      "manifest_sha256": "effd9b79d2c6f8637b26a463cab67fd93948c7b19196e0fc109028893c35a2e5",
+      "pages_fetched": 2,
+      "query": {
+        "effective_query": "ChatGPT lang:en -filter:retweets since:2026-09-15 until:2026-09-22 since_time:1789430400 until_time:1790035200",
+        "kind": "search_query",
+        "query": "ChatGPT lang:en -filter:retweets",
+        "since": "2026-09-15",
+        "until": "2026-09-22"
+      },
+      "reason": "page_limit",
+      "scope": "discourse_07",
+      "source_sha256": "2aa13be6563803b70837b04ab0129282ef86634a54fcd13b45178dd12aa790e9"
+    },
+    {
+      "complete": false,
+      "date_scope": {
+        "local_filter_applied": true,
+        "out_of_window_observations": 0,
+        "returned_observations": 40
+      },
+      "manifest_sha256": "843170cfd615c09ea1fcfa457b5d46bea298a918d04e01e7c881a40bb703efeb",
+      "pages_fetched": 2,
+      "query": {
+        "effective_query": "ChatGPT lang:en -filter:retweets since:2026-09-22 until:2026-09-29 since_time:1790035200 until_time:1790640000",
+        "kind": "search_query",
+        "query": "ChatGPT lang:en -filter:retweets",
+        "since": "2026-09-22",
+        "until": "2026-09-29"
+      },
+      "reason": "page_limit",
+      "scope": "discourse_08",
+      "source_sha256": "5b300b17404c3c25c1fad34446ad71734f7a847be015860bc5dca2212d13af80"
+    }
+  ],
+  "state_revision": null,
+  "status": "executed",
+  "suppression": {
+    "all_retained_domain_counts": {
+      "all_incidence": 24,
+      "all_terms": 21,
+      "below_threshold_incidence": 20,
+      "below_threshold_terms": 20,
+      "published_incidence": 4,
+      "published_terms": 1,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    },
+    "all_retained_hashtag_casefold_counts": {
+      "all_incidence": 27,
+      "all_terms": 25,
+      "below_threshold_incidence": 27,
+      "below_threshold_terms": 25,
+      "published_incidence": 0,
+      "published_terms": 0,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    },
+    "all_retained_hashtag_counts": {
+      "all_incidence": 27,
+      "all_terms": 25,
+      "below_threshold_incidence": 27,
+      "below_threshold_terms": 25,
+      "published_incidence": 0,
+      "published_terms": 0,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    },
+    "all_retained_hashtag_edges": {
+      "all_incidence": 42,
+      "all_terms": 42,
+      "below_threshold_incidence": 42,
+      "below_threshold_terms": 42,
+      "published_incidence": 0,
+      "published_terms": 0,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    },
+    "domain_counts": {
+      "all_incidence": 24,
+      "all_terms": 21,
+      "below_threshold_incidence": 20,
+      "below_threshold_terms": 20,
+      "published_incidence": 4,
+      "published_terms": 1,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    },
+    "hashtag_casefold_counts": {
+      "all_incidence": 27,
+      "all_terms": 25,
+      "below_threshold_incidence": 27,
+      "below_threshold_terms": 25,
+      "published_incidence": 0,
+      "published_terms": 0,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    },
+    "hashtag_counts": {
+      "all_incidence": 27,
+      "all_terms": 25,
+      "below_threshold_incidence": 27,
+      "below_threshold_terms": 25,
+      "published_incidence": 0,
+      "published_terms": 0,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    },
+    "hashtag_edges": {
+      "all_incidence": 42,
+      "all_terms": 42,
+      "below_threshold_incidence": 42,
+      "below_threshold_terms": 42,
+      "published_incidence": 0,
+      "published_terms": 0,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    },
+    "hashtag_nodes": {
+      "all_incidence": 25,
+      "all_terms": 23,
+      "below_threshold_incidence": 25,
+      "below_threshold_terms": 23,
+      "published_incidence": 0,
+      "published_terms": 0,
+      "threshold": 3,
+      "unsafe_incidence": 0,
+      "unsafe_terms": 0
+    }
+  },
+  "url_rejections_non_reposts": {}
+}

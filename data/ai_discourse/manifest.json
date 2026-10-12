@@ -1,0 +1,77 @@
+{
+  "schema": "ai-open-research-corpus/1",
+  "name": "ai_discourse",
+  "created_at_utc": "2026-10-12T15:51:49.975875+00:00",
+  "count": 318,
+  "stratum_record_sum": 320,
+  "post_ids_sha256": "7002502b0d656fd05137606a24abb06a2b47111018136a0e8daeea4f5e5f9f94",
+  "strata": [
+    {
+      "stratum": "discourse_ai_2026-09-01",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "0824d5f8480de28aebcdb2b5581d27413b930b991af85edbe0a4279c61642a60",
+      "source_fingerprint": "41e2d2668e14280816a0f6d40877a89b115504552a0a74b0d06089339052745c"
+    },
+    {
+      "stratum": "discourse_ai_2026-09-08",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "1b449d3393a2f1bebf387051e3e6b0527bd41cf93c25cc3101c99f2fddc788e8",
+      "source_fingerprint": "10ee004f48aada0693f630fe5f07771b1571ce204bbaa05d1de5edd76fbab018"
+    },
+    {
+      "stratum": "discourse_ai_2026-09-15",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "7c4c70f21739f6e07e2ee610b2a7a7c4751a65e03c8cb0d8665053c52858f23a",
+      "source_fingerprint": "47343f93e59da90e9ee8324b001cb9f24bb134669e78867cded1282c6416cd3a"
+    },
+    {
+      "stratum": "discourse_ai_2026-09-22",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "0f83319235f60a8d2877af7775e24a0db70bbddf07b4b59070e357b182cd1171",
+      "source_fingerprint": "becfbd9adcdb85096b8f849a741573adb53f6da9a9e95bf97a3e2156281967ec"
+    },
+    {
+      "stratum": "discourse_chatgpt_2026-09-01",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "f4bfa169f25ce758c3f8365252bf17bec4966d1d876259f7b5e4421c553780a5",
+      "source_fingerprint": "7e513b2b9472222f378647dffdea91746af87737597fc81f43147d3a6dc46676"
+    },
+    {
+      "stratum": "discourse_chatgpt_2026-09-08",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "ec3c48b786bb7ae9c3b3f0ca8d3a379f00d86c980712ff7515a0ec22bcb4be4d",
+      "source_fingerprint": "0359be1691a988019ef71ccb51b8468c1c0f5658bc4b70efb2b6c6f93e2424b4"
+    },
+    {
+      "stratum": "discourse_chatgpt_2026-09-15",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "a6e8d63480ad55334758c9ca6f412f4f51f6cc83c8b9f657ffe82273e0384615",
+      "source_fingerprint": "2aa13be6563803b70837b04ab0129282ef86634a54fcd13b45178dd12aa790e9"
+    },
+    {
+      "stratum": "discourse_chatgpt_2026-09-22",
+      "retained_analysis_ids": 40,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "6f130431bb3a7986a1c3931029e48c2a3c6daa6a69a53501a7ddcb00703570ad",
+      "source_fingerprint": "5b300b17404c3c25c1fad34446ad71734f7a847be015860bc5dca2212d13af80"
+    }
+  ],
+  "coverage_complete": false,
+  "unit": "unique retained analysis or seed post ID; context records excluded",
+  "content_license": "No license to X post content is granted; rehydration requires your own lawful access."
+}

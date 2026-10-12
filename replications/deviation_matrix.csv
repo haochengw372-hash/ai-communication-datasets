@@ -1,0 +1,13 @@
+study,dimension,original,adaptation,consequence
+kaiser_green_2026,sample,"AI lang:en; January 2023; millions of records","AI and ChatGPT bounded Latest weekly strata in September 2026","Nonprobability retained sample; no original-result replication"
+kaiser_green_2026,access,"Original data/code not located in reviewed article","Fresh records collected using pyXcom","Exact original results cannot be checked"
+kaiser_green_2026,hashtags,"Hashtag ranks and co-occurrence network","Per-post deduplication; separate case-sensitive and casefold incidence; unordered weighted pairs","Explicit operational decisions added; not established original implementation equivalence"
+kaiser_green_2026,domains,"Linked-domain ranking","Structured expanded hostname only; preserve www; no t.co destination inference","Hostname incidence may differ from registrable-domain aggregation"
+kaiser_green_2026,analysis,"Retweet network; sentiment; communities","Only hashtag/hostname incidence and co-occurrence","Retweet network and semantic/network community findings not reproduced"
+kaiser_green_2026,publication,"Article-level tables and figures","Frequency threshold 3 and safe aggregate tokens","Suppressed public graph is not the full retained graph; denominators remain reported"
+hara_et_al_2025,actors,"Expert profile terms scientist researcher professor","Named institutional accounts without individual expert screening","Organization-public adaptation; institutions not coded as scientists"
+hara_et_al_2025,sampling,"Original historical generative AI expert/public sample","Deterministic earliest/latest retained institutional original roots in September with displayed replies >=3","Purposive bounded sample differs from the original frame and period"
+hara_et_al_2025,manual_eligibility,"At least 3 replies for selected manual-coding roots","At least 3 actually retained replies resolved to a retained root","Displayed platform counts do not establish analysis eligibility"
+hara_et_al_2025,roles,"Human-coded expert/public communication roles","Header-only annotation template; author relation root_author/other_author/unknown","No semantic role proportions; other authors not assumed laypeople"
+hara_et_al_2025,models,"Biterm Topic Model and negative binomial regressions","Observed root/parent/depth and missing ancestry descriptions only","No reproduction of topics or role regression effects"
+hara_et_al_2025,access,"Original reply/coding data and scripts not located","New pyXcom bounded conversation collections","Full-paper or original-result reproduction cannot be claimed"

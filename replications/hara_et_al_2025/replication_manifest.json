@@ -1,0 +1,139 @@
+{
+  "analysis_script_sha256": "cd225cff997da831d4b1cb871f6e546eb75ff1d8381281d45693ded700be3264",
+  "ancestry_policy": "Context records may resolve observed ancestor links but do not enter reply denominators.",
+  "claim": "new_sample_method_adaptation_only",
+  "collection_scopes": 8,
+  "counts": {
+    "ancestry:resolved": 441,
+    "author_relation:other_author": 436,
+    "author_relation:root_author": 5,
+    "deeper_resolved_comments": 1,
+    "depths:1": 440,
+    "depths:2": 1,
+    "direct_resolved_comments": 440,
+    "manual_sample_eligible": 8,
+    "resolved_comments": 441,
+    "retained_comments": 441,
+    "root_present": 8,
+    "unique_reply_authors_known": 394,
+    "unique_retained_comment_ids": 441
+  },
+  "coverage": "Observed retained records only; unresolved ancestry and limited depth/page/sample caps prevent conversation completeness claims.",
+  "design": "organization-public conversation structure adaptation; institutions are not screened or coded as scientists",
+  "doi": "10.22323/2.24010202",
+  "execution_mode": "portable",
+  "generated_at_utc": "2026-10-12T15:57:39.234306+00:00",
+  "literature_methods_sha256": "2e6a9a8035cf551895fc6017e6577e015a7c8432581a0ebd59f9167ca9087715",
+  "manual_sample_rule": "at least 3 actually retained replies with a parent chain resolved to the retained root",
+  "not_replicated": [
+    "original sample and results",
+    "expert profile screening",
+    "manual semantic role coding",
+    "Biterm Topic Model",
+    "negative binomial regressions"
+  ],
+  "privacy": "No text, author IDs, or root-reply pairs published; aggregate term incidence threshold is not a formal anonymity guarantee.",
+  "publication_threshold": 3,
+  "python": "3.13.0",
+  "ratios_over_all_retained_scope_replies": {
+    "self_reply": {
+      "denominator": 441,
+      "fraction": 0.011337868480725623,
+      "numerator": 5
+    },
+    "unknown_author_relation": {
+      "denominator": 441,
+      "fraction": 0.0,
+      "numerator": 0
+    },
+    "unresolved_ancestry": {
+      "denominator": 441,
+      "fraction": 0.0,
+      "numerator": 0
+    }
+  },
+  "reply_author_labels": "root_author / other_author / unknown; other authors are not assumed laypersons",
+  "retained_reply_distribution_unsuppressed": {
+    "21": 1,
+    "60": 7
+  },
+  "sampling_config_sha256": "e2fb265ab67b6f54dbb878031951c7b45c0a8158d347d1e725702a6892614a52",
+  "selected_roots": 8,
+  "selected_roots_file_sha256": "be279b4d6816f3d82b0983deb6f81165b7cb3d80ab182a7e2ece7229928102d1",
+  "sources": [
+    {
+      "complete": false,
+      "date_scope": null,
+      "manifest_sha256": "e36bdef17af14e5544bd53ede8330b3eec398e5123743a71bc9d61356f6dfda4",
+      "pages_fetched": 2,
+      "reason": "comment_limit",
+      "scope": "conversation_01",
+      "source_sha256": "6774569fa13ebb751da52ce24a8dadc0a82eb68e6a72a755d7e72f8aec5fa8c8"
+    },
+    {
+      "complete": false,
+      "date_scope": null,
+      "manifest_sha256": "375c91ffb3e6ae767df46ec384d80cc16c7792f1acf1fff42eef8eb3efec7569",
+      "pages_fetched": 2,
+      "reason": "comment_limit",
+      "scope": "conversation_02",
+      "source_sha256": "56c418c1895a14cdacac01db5fe00e1867d8724538192bfedc5245368b06ce2b"
+    },
+    {
+      "complete": false,
+      "date_scope": null,
+      "manifest_sha256": "e0b50e68dc6357de89298a108cde69fb8a62ab02aed491afbc8b3d38fa636075",
+      "pages_fetched": 3,
+      "reason": "page_limit",
+      "scope": "conversation_03",
+      "source_sha256": "2e29bc9ae41d5164ad2da6205d5810f72a713b88d8f04d039dafeed2e2dceb1e"
+    },
+    {
+      "complete": false,
+      "date_scope": null,
+      "manifest_sha256": "c4069cc081d14ac9303889cae7418ffb3e6a1abf0e246d77e2095e0620079831",
+      "pages_fetched": 2,
+      "reason": "comment_limit",
+      "scope": "conversation_04",
+      "source_sha256": "be4c19fc9b594f7386dcafac8c168e805a763a2698e3036645781bbb824defcc"
+    },
+    {
+      "complete": false,
+      "date_scope": null,
+      "manifest_sha256": "aafcf516580855014b01dbe80e24b830251582328df440a742cd88c10f9ba3dd",
+      "pages_fetched": 2,
+      "reason": "comment_limit",
+      "scope": "conversation_05",
+      "source_sha256": "274cb76a2c1baf014ead226ad641db165d3f31f60b6f436a1df7a8bdaa652f97"
+    },
+    {
+      "complete": false,
+      "date_scope": null,
+      "manifest_sha256": "a06efd37eaa688bba2948fa4b8e69220214ccfca5e95ba8e922bac1f3f9406c1",
+      "pages_fetched": 2,
+      "reason": "comment_limit",
+      "scope": "conversation_06",
+      "source_sha256": "78b0939a972de8ef82eabd9cea6923207f366d2c0966ad17350faed91fd3a1a3"
+    },
+    {
+      "complete": false,
+      "date_scope": null,
+      "manifest_sha256": "8cca89e0141781afa721ad366092f80a2ad4b1e49f7cdbaec02d270f71f05f2b",
+      "pages_fetched": 2,
+      "reason": "comment_limit",
+      "scope": "conversation_07",
+      "source_sha256": "632bacba93a3287d641afc28d53f6b2acf215b10949f062d625b6f4ea2605c0e"
+    },
+    {
+      "complete": false,
+      "date_scope": null,
+      "manifest_sha256": "797658f79ae4150ddbebfa9e73a9841637ff095680d256fc926461214e981746",
+      "pages_fetched": 2,
+      "reason": "comment_limit",
+      "scope": "conversation_08",
+      "source_sha256": "03eaa3df6f11db7e94bdd8bb9a39b6a447d2f213d4b94245e198a1dbbeb90b23"
+    }
+  ],
+  "state_revision": null,
+  "status": "executed"
+}

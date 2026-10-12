@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "collection_date": "2026-10-12",
+  "method": "bounded Latest search strata; nonprobability convenience sample",
+  "institutions": [
+    {
+      "handle": "OpenAI",
+      "source": "https://openai.com/"
+    },
+    {
+      "handle": "AnthropicAI",
+      "source": "https://www.anthropic.com/"
+    },
+    {
+      "handle": "GoogleDeepMind",
+      "source": "https://deepmind.google/"
+    },
+    {
+      "handle": "MistralAI",
+      "source": "https://mistral.ai/"
+    }
+  ],
+  "institution_intervals": [
+    [
+      "2026-07-01",
+      "2026-08-01"
+    ],
+    [
+      "2026-08-01",
+      "2026-09-01"
+    ],
+    [
+      "2026-09-01",
+      "2026-10-01"
+    ]
+  ],
+  "discourse_queries": [
+    {
+      "name": "ai",
+      "query": "AI lang:en -filter:retweets"
+    },
+    {
+      "name": "chatgpt",
+      "query": "ChatGPT lang:en -filter:retweets"
+    }
+  ],
+  "discourse_intervals": [
+    [
+      "2026-09-01",
+      "2026-09-08"
+    ],
+    [
+      "2026-09-08",
+      "2026-09-15"
+    ],
+    [
+      "2026-09-15",
+      "2026-09-22"
+    ],
+    [
+      "2026-09-22",
+      "2026-09-29"
+    ]
+  ],
+  "pages_per_stratum": 2,
+  "workers": 2,
+  "delay_seconds": 1,
+  "request_timeout_seconds": 15,
+  "search_dispatch_limit": 20,
+  "dispatch_seconds_limit": 300,
+  "conversation_selection": "For each institution select earliest and latest retained September original main post with observed reply_count >= 3; if none retain empty scope; record all candidates before selection.",
+  "conversation_max_depth": 2,
+  "conversation_max_comments": 60,
+  "conversation_page_budget": 3,
+  "conversation_max_roots": 8,
+  "scope_notes": [
+    "until exclusive UTC",
+    "Primary search results may include authored replies; exports preserve roles",
+    "No assumption of random sampling or complete timeframe coverage",
+    "Organization conversations adapt expert-public design; organizations are not coded as experts."
+  ]
+}

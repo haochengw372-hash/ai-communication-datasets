@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Public discussion of personal agents: product introductions, use, expectations and concerns. Query hits are candidates, not validated attitude labels.",
+  "since": "2026-09-01",
+  "until": "2026-10-13",
+  "timezone": "UTC; final day truncated at collection time",
+  "language": "unrestricted, language field retained locally; no machine translation",
+  "unit": "unique primary search post; original/quote/reply distinctions retained",
+  "sampling": "Latest search, weekly strata, at most 3 pages per product-stratum, nonrandom and incomplete",
+  "intervals": [
+    [
+      "2026-09-01",
+      "2026-09-08"
+    ],
+    [
+      "2026-09-08",
+      "2026-09-15"
+    ],
+    [
+      "2026-09-15",
+      "2026-09-22"
+    ],
+    [
+      "2026-09-22",
+      "2026-09-29"
+    ],
+    [
+      "2026-09-29",
+      "2026-10-06"
+    ],
+    [
+      "2026-10-06",
+      "2026-10-13"
+    ]
+  ],
+  "products": [
+    {
+      "key": "meta_muse",
+      "name": "Meta Muse",
+      "query": "(\"Meta Muse\" OR \"Muse agent\" OR \"muse.ai\" OR \"Muse personal\" OR (Muse (智能体 OR 个人助理))) -\"Muse Spark\" -\"Muse Image\" -\"Muse Audio\" -filter:retweets",
+      "source": "https://ai.meta.com/muse/",
+      "announcement_source": "https://about.fb.com/ltam/news/2026/09/presentamos-muse-el-primer-agente-de-ia-personal-del-mundo-creado-para-todos/"
+    },
+    {
+      "key": "openai_dots",
+      "name": "OpenAI / ChatGPT Dots",
+      "query": "(\"ChatGPT Dots\" OR \"OpenAI Dots\" OR \"ChatGPT Dot\" OR \"OpenAI Dot\" OR (dots (\"personal agent\" OR \"always-on\" OR \"cloud computer\" OR \"my dot\" OR \"your dot\" OR 智能体 OR 助理))) -filter:retweets",
+      "source": "https://openai.com/index/introducing-dots/",
+      "name_disambiguation": "User dot interpreted as OpenAI Dots; excludes New Computer Dot and generic dot."
+    },
+    {
+      "key": "grok_bot",
+      "name": "Grok Bot personal/work agent",
+      "query": "(\"Grok Bot\" OR GrokBot OR \"grok.bot\") (agent OR agents OR computer OR workflow OR workflows OR assistant OR teammate OR teammates OR Cursor OR automation OR 智能体 OR 助理) -filter:retweets",
+      "source": "https://docs.x.ai/grok-bot/overview",
+      "name_disambiguation": "Search can include references to the legacy @grok reply bot; relevance requires human review before substantive coding."
+    }
+  ],
+  "pages_per_stratum": 3,
+  "max_workers": 2,
+  "delay": 1,
+  "timeout": 15,
+  "max_seconds": 420,
+  "public_release": "Post IDs only with aggregate corpus counts, code and documentation. No post text, ordinary-user profiles or individual inferences.",
+  "query_revision": 2,
+  "revisions": [
+    {
+      "revision": 1,
+      "reason": "Initial broad matches mixed generic dots and Muse model references; retained locally, not released as curated product corpus."
+    },
+    {
+      "revision": 2,
+      "reason": "Exact product phrases and agent-context terms; exclusion of Muse model-only terms. Still candidate relevance, not human-validated labels."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "ai-open-research-corpus/1",
+  "name": "institution_conversations",
+  "created_at_utc": "2026-10-12T15:51:50.200529+00:00",
+  "count": 449,
+  "stratum_record_sum": 449,
+  "post_ids_sha256": "0f37634894b05f71e2c51b87fb55b83b8ae0dc1c52413a688f6a6f7c4d2bcaab",
+  "strata": [
+    {
+      "stratum": "conversation_001",
+      "retained_analysis_ids": 61,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "a4716e8c6356c7e41536a38f094b9d0899e3a5c7693d4c5c3caa1e758621b8e0",
+      "source_fingerprint": "6774569fa13ebb751da52ce24a8dadc0a82eb68e6a72a755d7e72f8aec5fa8c8"
+    },
+    {
+      "stratum": "conversation_002",
+      "retained_analysis_ids": 61,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "623e5cf07780680922ea9891d4bfe66e1fcc267c457fa0c8ecc6ab70535fb2e3",
+      "source_fingerprint": "56c418c1895a14cdacac01db5fe00e1867d8724538192bfedc5245368b06ce2b"
+    },
+    {
+      "stratum": "conversation_003",
+      "retained_analysis_ids": 22,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "fecd170d5868c7ec94cffda8f622f6765272f5eb7fc3233a2cdcff1b56908240",
+      "source_fingerprint": "2e29bc9ae41d5164ad2da6205d5810f72a713b88d8f04d039dafeed2e2dceb1e"
+    },
+    {
+      "stratum": "conversation_004",
+      "retained_analysis_ids": 61,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "e2db9ca59b38b2e58da05c94ed519443cf64adc779afb536552cb6fb88e1a099",
+      "source_fingerprint": "be4c19fc9b594f7386dcafac8c168e805a763a2698e3036645781bbb824defcc"
+    },
+    {
+      "stratum": "conversation_005",
+      "retained_analysis_ids": 61,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "111d01aa1fe1fb293193f9406219c613738b8ac254cc3c40ebc8fb51f570def7",
+      "source_fingerprint": "274cb76a2c1baf014ead226ad641db165d3f31f60b6f436a1df7a8bdaa652f97"
+    },
+    {
+      "stratum": "conversation_006",
+      "retained_analysis_ids": 61,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "a19a61c0691758d920caca014f13360e2087c91d742391eaec0858afca882e9d",
+      "source_fingerprint": "78b0939a972de8ef82eabd9cea6923207f366d2c0966ad17350faed91fd3a1a3"
+    },
+    {
+      "stratum": "conversation_007",
+      "retained_analysis_ids": 61,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "61b48927efd2f23bfa2c9a0ddf58e6c20e63ecfb5c315e6499b14856dbe68c1e",
+      "source_fingerprint": "632bacba93a3287d641afc28d53f6b2acf215b10949f062d625b6f4ea2605c0e"
+    },
+    {
+      "stratum": "conversation_008",
+      "retained_analysis_ids": 61,
+      "collection_complete": false,
+      "coverage_complete": false,
+      "id_sha256": "fbc23d497767e383c0609e61d2afa577fe035cee9aed2e8c8fe57c1a546fe11d",
+      "source_fingerprint": "03eaa3df6f11db7e94bdd8bb9a39b6a447d2f213d4b94245e198a1dbbeb90b23"
+    }
+  ],
+  "coverage_complete": false,
+  "unit": "unique retained analysis or seed post ID; context records excluded",
+  "content_license": "No license to X post content is granted; rehydration requires your own lawful access."
+}

@@ -1,0 +1,24 @@
+{
+  "script_sha256": "cd225cff997da831d4b1cb871f6e546eb75ff1d8381281d45693ded700be3264",
+  "sha256": {
+    "aggregate/all_retained_domain_counts.csv": "795a0e785a2deb0284bfa7e86fb7dfa2700306d8cf3a4834983a4bcbfe772b42",
+    "aggregate/all_retained_hashtag_casefold_counts.csv": "ff280ed72e98b88cf048705fe54fb55f7fec9623d6f4c572f478bc0df4d2bffb",
+    "aggregate/all_retained_hashtag_counts.csv": "ff280ed72e98b88cf048705fe54fb55f7fec9623d6f4c572f478bc0df4d2bffb",
+    "aggregate/all_retained_hashtag_edges.csv": "f00d33eaad9b5641ba9a92b19b90134e38e663f01fffd211f8ed33a0c4a4d1ab",
+    "aggregate/conversation_size_distribution.csv": "a5ba63a8479a2ff187899a4c48a9a05520da47bb551a1b98c46797cd8c9f2d2b",
+    "aggregate/conversation_structure.csv": "3a4309e33a847ad06c67165346a22e25ea7a9aeb562b50b688ff5f311363842f",
+    "aggregate/domain_counts.csv": "795a0e785a2deb0284bfa7e86fb7dfa2700306d8cf3a4834983a4bcbfe772b42",
+    "aggregate/hashtag_casefold_counts.csv": "ff280ed72e98b88cf048705fe54fb55f7fec9623d6f4c572f478bc0df4d2bffb",
+    "aggregate/hashtag_counts.csv": "ff280ed72e98b88cf048705fe54fb55f7fec9623d6f4c572f478bc0df4d2bffb",
+    "aggregate/hashtag_edges.csv": "f00d33eaad9b5641ba9a92b19b90134e38e663f01fffd211f8ed33a0c4a4d1ab",
+    "aggregate/hashtag_nodes.csv": "f8812c8c5b6b54b2e6ed766eb49a36271c00f7226dc239bb306f3c63d2f47bd9",
+    "aggregate/language_counts.csv": "08f238d9fdbaf6f3a816b2cce199ba85d63a8cd05fca25fe4baf52a3ee08cacd",
+    "aggregate/post_type_counts.csv": "7c2aa99e5c4ab9fe350adf3037f92f127e48a745c7bd36fbd77bc3d833f3a5fc",
+    "replications/README.md": "6231f69a045d72d3a4475c0b162fedd5e32a3e26f45f25695cf94a70e31587a0",
+    "replications/RESULTS.md": "fcd373b6d4302192876e3044bbb869bdc4582d68dbea0045b553808a62c3b239",
+    "replications/deviation_matrix.csv": "ed164a2475cbf2c4ff6d386df81e091747ef7dccb9f89871b0f538b06e5efe95",
+    "replications/hara_et_al_2025/replication_manifest.json": "eb0006bb3f8633d3fe59943d1d79c6557b8ab711d35f41affca502c330041378",
+    "replications/hara_et_al_2025/role_annotation_template.csv": "3e9c07bbb3b8686816bc7155a4f353b451cfdc0ceea080f4120396927211c6d2",
+    "replications/kaiser_green_2026/replication_manifest.json": "cfeaf397cc08961afc2c4d0ce7aeef5f79951de9c8292e036f2452b8d70749ad"
+  }
+}
